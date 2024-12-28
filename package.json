@@ -1,0 +1,21 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "Project with specified dependencies",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run vercel-build || npm run build"
+  },
+  "dependencies": {
+    "numpy": "^1.19.2",
+    "pandas": "latest",
+    "matplotlib": "latest",
+    "pillow": "latest",
+    "opencv-python-headless": "4.5.1",
+    "plotly": "latest",
+    "requests": "latest",
+    "librosa": "0.8.0",
+    "streamlit": "0.85.0",
+    "tensorflow": "^2.4.1"
+  }
+}
